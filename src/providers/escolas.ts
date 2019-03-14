@@ -5,7 +5,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class EscolasProvider {
 
-  apiUrl = 'http://localhost:8080/escolas/';
+  apiUrl = 'http://localhost:8080/api/escolas/';
   convidados: any;
 
   constructor(public http: HttpClient) {
